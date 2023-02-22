@@ -9,7 +9,7 @@ const Baker = () => {
     }
     return ( 
         <>
-        <button onCnnnlick={setFalse}>
+        <button onClick={setFalse}>
             set to false
         </button>
         {isTrue && <div>Hey, I'm true.</div>}
